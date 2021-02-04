@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="nav-header-rule">
+            <hr />
+        </div>
+        <div class="nav-header"><a href="../../Home.htm" class="nav-header">Journey Creator Knowledge Center</a>
+        </div>
+        <div id="contentBody">
+            <div>
+                <div class="sideContent">
+                    <div class="toolbar-position">
+                        <MadCap:topicToolbarProxy />
+                    </div>
+                </div>
+                <MadCap:breadcrumbsProxy />
+                <div class="ContentRow" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                    <div>
+                        <MadCap:bodyProxy />
+                    </div>
+                    <div>
+                        <MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: False;mc-include-parent: False;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenuFixed.flskn" mc-linked-toc="/Project/TOCs/Troubleshooting.fltoc" />
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="HomeMasterPageFooter outer-row">
+                    <div><a href="../../Home.htm"><img src="../Images/Sync_Logo_RGB_color_reverse_250.png" alttext="" class="Hyperlinked footer-logo" /></a>
+                        <p class="Copyright">&#160;</p>
+                        <p class="Copyright"> <b>Corporate Headquarters</b><br /> 200 Crossing Blvd.<br />Bridgewater, NJ 08807</p>
+                        <p class="Copyright">&#160;</p>
+                        <!-- <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.CompanyName" /></p> -->
+                        <p class="Copyright">© Synchronoss <MadCap:variable name="General.Year" /> <a href="https://synchronoss.com/terms-of-use/">Terms of Use</a> | <a href="https://synchronoss.com/privacy-policy/">Privacy Notice</a> | <a href="https://synchronoss.com/wp-content/uploads/Synchronoss-Cookie-Policy.pdf">Cookie Policy</a><br /> <a href="https://synchronoss.com/wp-content/uploads/Zentry-Privacy-Notice.pdf">Zentry Privacy Notice</a> | <a href="https://synchronoss.com/wp-content/uploads/Modern-Slavery-Statement.pdf">Modern Slavery Statement</a> | <a href="https://synchronoss.com/virtual-patent-marking/">Patents</a></p>
+                    </div>
+                    <!-- <div class="footer-icons"><a href="https://twitter.com/synchronoss" target="_blank"><img src="../Images/twitter_white.svg" alttext="" class="Hyperlinked" style="width: 20px;" /></a><a href="https://www.linkedin.com/company/synchronoss-technologies" target="_blank"><img src="../Images/linkedin_white.svg" alttext="" class="Hyperlinked" style="width: 20px;" /></a><a href="https://www.youtube.com/channel/UC3sHzKOfYlqtnjKLc0vRmaA" target="_blank"><img src="../Images/youtube_white.svg" alttext="" class="Hyperlinked" style="width: 20px;" /></a>
+					</div> -->
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

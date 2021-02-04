@@ -1,0 +1,2171 @@
+﻿/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* Home Page General Styles*/
+
+body
+{
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: 1.7em;
+	font-size: 1.25em;
+	color: #000000;
+}
+
+.body-container {
+    position: relative;
+    top: -1em;
+}
+
+a.BlackText
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+h1
+{
+	font-size: 2.75em;
+}
+
+h2
+{
+	font-size: 1.6785em;
+}
+
+h2.SubCenter
+{
+	text-align: center;
+	font-size: 49px;
+	line-height: 53px;
+	font-weight: 100;
+	color: rgb(255, 144, 0);
+	margin-top: 0.3em;
+	margin-bottom:0.3em;
+
+}
+
+/* GRID LAYOUT FOR HOME PAGE. 2 CONTAINERS: .container-fourcol  .container-threecol */
+
+.content-qlinks {
+/*	margin-left: 10%;
+	margin-right: 20%;
+	margin-bottom: 0%;
+	margin-top: 2%; */
+	/*margin: auto; */
+	width:100%;
+padding-right: 20%;
+	padding-left: 20%; 	
+}
+
+.content-support {
+/*display:block; */
+
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5em;
+	/*margin: auto; */
+	width:100%;
+	padding-right: 5em;
+	padding-left: 5em;	
+}
+
+.container-fourcol {
+	display:grid;
+    /*grid-template-columns: repeat(auto-fit, 250px);
+	grid-template-rows: repeat(6, 225px);*/
+	grid-template-columns: repeat(auto-fit, 250px);
+	grid-template-rows: min-content 1fr;
+	/*grid-gap: 15%;*/
+	 justify-content: space-evenly;
+	-ms-justify-content: center;
+/*	grid-row-end: auto; */
+	display: -ms-grid;
+-ms-grid-columns: 0fr 250px 1fr 250px 1fr 250px;
+   -ms-grid-rows: 250px 250px;
+ 
+
+	
+}
+
+
+
+.container-threecol {
+	display:grid;
+    /*grid-template-columns: repeat(auto-fit, 250px);
+	grid-template-rows: repeat(3, 225px);*/
+grid-template-columns: repeat(auto-fit, 200px);
+/*	grid-template-columns: 225px, 225px, 225px, 225px; */
+ 	grid-template-rows: min-content 1fr;
+	grid-gap: 10%;
+/*position: relative;
+	top: 5em; */
+}
+
+.box-gray {
+	background-color: #464646;
+	height: 225px;
+	
+	
+}
+
+.box-gray1 {
+	background-color: #464646;
+	height: 225px;
+	-ms-grid-row: 1;
+  -ms-grid-column: 2;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray2 {
+	background-color: #464646;
+	height: 225px;
+	-ms-grid-row: 1;
+  -ms-grid-column: 4;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray3 {
+	background-color: #464646;
+	height: 225px;
+	-ms-grid-row: 1;
+  -ms-grid-column: 6;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray4 {
+	background-color: #464646;
+	height: 225px;
+	-ms-grid-row: 2;
+  -ms-grid-column: 2;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray5 {
+	background-color: #464646;
+	height: 225px;
+		-ms-grid-row: 2;
+  -ms-grid-column: 4;
+   border: 5px solid #ffffff;
+	
+}
+
+
+.box-gray6 {
+	background-color: #464646;
+	height: 225px;
+		-ms-grid-row: 2;
+  -ms-grid-column: 6;
+   border: 5px solid #ffffff;
+	
+}
+
+.box-mspace1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+	
+}
+
+.box-mspace2 {
+
+		-ms-grid-row: 1;
+  -ms-grid-column: 3;
+	
+}
+
+.box-mspace3 {
+
+		-ms-grid-row: 1;
+  -ms-grid-column: 5;
+	
+}
+
+.box-mspace4 {
+
+		-ms-grid-row: 2;
+  -ms-grid-column: 1;
+	
+}
+
+.box-mspace5 {
+
+		-ms-grid-row: 2;
+  -ms-grid-column: 3;
+	
+}
+
+.box-mspace6 {
+
+		-ms-grid-row: 2;
+  -ms-grid-column: 5;
+	
+}
+
+.box-white {
+	background-color: #ffffff;
+	height: 225px;
+	width: 200px;
+	/*grid-column: 1 / 4 ;*/ 
+	/*padding-left: 40%;
+	padding-right: 40%;
+	padding-top: 1px */
+	
+}
+
+
+.section-SubCenterOrange
+{
+/*position: relative;
+	bottom: -5em;*/
+	width:75%;
+	margin:auto; 
+	display: inline-block;	
+	padding-bottom:2em;
+	padding-right: 5em;
+	padding-left: 5em;	
+	
+}
+
+.support-section {
+ 
+ 	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;
+	margin-bottom: 10em;
+  width: 450px;
+  padding-top: 3em;
+}
+
+h2.SubCenterOrange
+{
+	
+	font-weight: 700;
+	/*margin:auto; */
+	text-align: center;
+	color: #ff9000;
+}
+img.resize {
+width:100%;
+height: auto!important;
+}
+
+img.Hyperlinked
+{
+	border-style: none;
+}
+/* Changed margin-left, margin-right, width and text-align properties to center under logo text. Changed top  property to -90 12/27 - PB */
+
+.nav-search-wrapper {
+z-index: 1;
+}
+div.nav-header
+{
+	color: #464646;
+	font-size: 1.5em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+div.nav-header-rule
+{
+	
+	position: relative;
+	top: -69px;
+	left: 0px;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+   
+}
+
+div.nav-header a
+{
+	color: #464646;
+	text-decoration: none;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.Copyright
+{
+/*	float: left;
+	clear: left;
+	font-size: 0.5em;
+	text-align: left;
+	color: #000000;
+	line-height: 1.6em;
+	margin: 0 0 10px 0;
+	padding-left: 20px; */
+
+	font-size: 0.75em;
+	text-align: left;
+	color: #ffffff;
+	line-height: 1.6em;
+	margin: 0 0 10px 0;	
+	padding-left: 2em;
+}
+
+.centered-text
+{
+	text-align: center;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.whiteheader
+{
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+.off-canvas-content {
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+/* Home Page Button Styles */
+/* Changed button background-color 12/26 - PB */
+
+.tile-button
+{
+	cursor: pointer;
+	background-color: #914191;
+	width: 100px;
+	height: 30px;
+	font-weight: 700;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
+	position: relative;
+	bottom: -8.5em;
+	left: 0em; 
+	margin: auto;
+}
+
+/* Changed button border color 12/26 - PB */
+.tile-button
+{
+	border: solid 2px #914191;
+	border-radius: 2px;
+	color: white;
+	text-align: center;
+}
+/* Changed button background-color on hover 12/26 - PB */
+.tile-button:hover
+{
+	background-color: #914191;
+}
+
+.tile-button a
+{
+	display: block;
+	position: relative;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.button
+{
+	cursor: pointer;
+	background-color: #914191;
+	width: 100px;
+	height: 35px;
+	font-weight: 700;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
+	position: relative;
+	bottom: -8em;
+	left: 0em; 
+	margin: auto;
+}
+/* Changed button border color 12/26 - PB */
+.button
+{
+	border: solid 2px #914191;
+	color: white;
+}
+/* Changed button background-color on hover 12/26 - PB */
+.button:hover
+{
+	background-color: #914191;
+}
+
+.button a
+{
+	display: block;
+	position: relative;
+	top: 50%;
+	left: 25%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	font-size: .5em;
+	color: #ffffff;
+}
+
+/* Responsive Header Styles*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+/* Content Section */
+
+#content-section
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+	margin-top: -50px;
+}
+
+#content-section h2
+{
+/*	font-weight: normal; */
+}
+
+.right-section div.button-group,
+.left-section div.button-group
+{
+	margin-top: 20px;
+}
+
+#content-section .left-section
+{
+	padding-right: 20px;
+}
+
+#content-section .right-section
+{
+	padding-left: 20px;
+}
+
+.left-section .left-content,
+.right-section .right-content
+{
+	height: 270px;
+}
+
+#content-section .right-section .table-images:first-of-type
+{
+	margin-bottom: 20px;
+}
+
+#content-section.mc-blurb p
+{
+color: #464646;
+font-weight: 300;
+font-size: 23px;
+line-height: 35px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+
+#content-section.mc-blurb .mc-bullets
+{
+	color: #464646;
+font-weight: 300;
+font-size: 23px;
+line-height: 35px;
+margin-top: 25px;
+margin-bottom: 5px;
+
+}
+
+#content-section.mc-blurb .mc-bullets > li
+{
+	list-style-image: url('../Images/Bullet1.png');
+	color: #464646;
+	font-weight: 300;
+	font-size: 23px;
+	line-height: 35px;
+	margin-top: 8px;
+
+}
+
+/* Home Page Topic Hero section*/
+/* reverted background-size to "cover" from "contain" 12/26. This was the styling from the IP second draft - PB*/
+.topichero
+{
+	background-color: #f0f0f0;
+/*	background-image: url('c');*/ 
+/*	background-size: cover; */
+	background-repeat: no-repeat;
+	padding-top: 10px;*/
+	height: auto!important;
+	padding-bottom: 400px;
+	width: 100%;
+}
+
+div.topichero h1
+{
+	font-size: 3.6em;
+	margin-top: 1.11em;
+	margin-bottom: 0.5em;
+	line-height: 100%;
+}
+
+div.topichero h2
+{
+	font-size: 1.8em;
+	margin-bottom: 80px;
+	line-height: 100%;
+}
+
+/* Home Page Footer */
+
+div.footer
+{
+	background-color: #363839;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+div.footer a
+{
+	text-decoration: none;
+	color: #DADADA;
+}
+
+div.footer > div.outer-row
+{
+	line-height: 30px;
+	padding: 0;
+}
+
+.footer-logo
+{
+	max-width: 100%;
+	text-align: left;
+}
+
+.footer-links
+{
+	text-align: left;
+}
+
+.footer-links a
+{
+	padding-right: 15px;
+}
+
+.footer-icons
+{
+	text-align: right;
+	display: inline-block;
+	border-radius: 5;
+}
+
+ul.navigation li > a:hover
+{
+	font-weight: 400;
+}
+
+.footer-icons > a:first-of-type
+{
+	/*	padding-right: 10px; */
+}
+
+.footer-icons > a
+{
+	margin: 10px 10px 10px 10px;
+}
+
+/* Overrides for styles*/
+
+.title-bar .menu-icon span
+{
+	background: transparent url('../Images/Menu.png') no-repeat center center;
+	-pie-background: transparent url('../Images/Menu.png') no-repeat center center;
+}
+
+ul.navigation a
+{
+	font-weight: 400;
+	font-size: 15px;
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+ul.navigation li > a
+{
+	font-weight: 400;
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+nav.title-bar
+{
+	border-bottom: 1px solid #999;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	/*padding: 10px 0; */
+	line-height: inherit;
+	display: block;
+	background-color: #ffffff;
+}
+
+/* Mad Cap proxy/editor assigned styles */
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: none;
+	width: 50%;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+p.TOC2
+{
+	margin-left: 20px;
+	display: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+html.HomePage
+{
+	mc-community-features: disabled;
+}
+
+div.HomeHeroSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomeHeroSection::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomeHeroSection::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomeHeroSection > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.HomeHeroSection > div:nth-child(1)
+{
+	width: 100%;
+	margin-left: 0%;
+}
+
+div.HomeWelcomePDFSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomeWelcomePDFSection::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomeWelcomePDFSection::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomeWelcomePDFSection > div
+{
+	float: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.HomeWelcomePDFSection > div:nth-child(1)
+{
+	width: 58.333%;
+	margin-left: 0%;
+}
+
+div.HomeWelcomePDFSection > div:nth-child(2)
+{
+	width: 41.667%;
+	margin-left: 0%;
+}
+
+div.HomeWelcomeButtons	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomeWelcomeButtons::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomeWelcomeButtons::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomeWelcomeButtons > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.HomeWelcomeButtons > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 8.3333%;
+}
+
+div.HomeWelcomeButtons > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 8.3333%;
+}
+
+div.HomePDFSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomePDFSection::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomePDFSection::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomePDFSection > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div.HomePDFSection > div:nth-child(1)
+{
+	width: 33.33333%;
+}
+
+div.HomePDFSection > div:nth-child(2)
+{
+	width: 33.33333%;
+}
+
+div.HomePDFSection > div:nth-child(3)
+{
+	width: 33.33333%;
+}
+
+div.HomePDFButton	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomePDFButton::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomePDFButton::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomePDFButton > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.HomePDFButton > div:nth-child(1)
+{
+	width: 50%;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	/*margin-left: auto;
+	margin-right: auto; */
+	margin: auto;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*background-color: #ffffff;*/
+	padding: 0%;
+	margin:auto;
+
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 33%;
+	margin-left: 0%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 33%;
+	margin-left: 0%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 33%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: 2em;
+	margin-right: 2em; 
+	
+}
+
+div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #464646;
+	height: 10em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+div.home-tiles-layout > div:nth-child(1)
+{
+	width: 10em;
+	margin-left: 2%;
+	
+}
+
+div.home-tiles-layout > div:nth-child(2)
+{
+	width: 10em;
+	margin-left: 2%;
+}
+
+div.home-tiles-layout > div:nth-child(3)
+{
+	width: 10em;
+	margin-left: 2%;
+}
+
+div.home-tiles-layout p
+{
+	line-height: 1.2;
+}
+
+/*	div.quick-links > div:nth-child(1)
+	{
+		width: 10em;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 10em;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 10em;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 10em;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 10em;
+		margin-left: 25.5%;
+	}
+	
+	*/
+	
+	div.home-layout
+{
+	padding: 2% 5%;
+}
+
+div.home-section
+{
+	padding: 0% 0;
+	border-bottom: solid 1px #dadada;
+}
+
+.support-icon-left{
+	margin-left: auto;
+	padding-top: 2em;
+	padding-left: 50px;
+	float: left;
+}
+
+.support-icon-middle{
+	margin: auto;
+	padding-top: 2em;
+	float: left;
+	padding-left: 50px;
+}
+.support-icon-right{
+	margin-right: auto;
+	padding-top: 2em;
+	float: left;
+	padding-left: 50px;
+}
+
+.support-tile{
+	margin: auto;
+	padding-left: 2em;
+}
+.support-tile-title {
+/*	position: relative;
+	top: 2em;
+	left:-.5em; */
+	font-weight: 700;
+	line-height: .9em;
+	font-size: .85em;
+	color: #ff9000;
+	width:100%;
+	margin:auto;
+	/*padding-left: 50%;
+	padding-right: 50%;*/
+	padding-top: 10px;
+	/*padding-bottom: 1px;*/
+	text-align: center;
+}
+.tile-title 
+{
+	position: relative;
+	top: -1em;
+	text-align: center;
+	font-weight: 400;
+	line-height: 33px;
+	font-size: 27px;
+	color: #ff9000;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+
+}
+
+.tile-text {
+	position: relative;
+	top: -1.5em;
+	font-weight: 300;
+	line-height: 25px;
+	font-size: 20px;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-right: 12px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+
+}
+
+
+/* Medium Layout */
+
+@media only screen and (max-width: 1290px)
+{
+
+.topichero
+{
+	background-color: #f0f0f0;
+	background-image: url('../Images/Journey-Creator.jpg'); 
+	/* background-size: cover; */
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	height: auto!important;
+	padding-bottom: 300px;
+	width: 100%;
+}
+
+	.container-fourcol {
+	grid-gap: 2%;
+/*	grid-row-end: auto; */
+	display: -ms-grid;
+-ms-grid-columns: 250px 1fr 250px 1fr;
+   -ms-grid-rows: 250px 1fr 250px 1fr;
+   	 justify-content: space-evenly;
+	-ms-justify-content: center;
+
+	
+}
+	
+	.box-gray1 {
+
+	-ms-grid-row: 1;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray2 {
+
+	-ms-grid-row: 1;
+  -ms-grid-column: 3;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray3 {
+
+	-ms-grid-row: 3;
+  -ms-grid-column: 1;
+ border: 5px solid #ffffff;
+	
+}
+
+.box-gray4 {
+
+	-ms-grid-row: 3;
+  -ms-grid-column: 3;
+ border: 5px solid #ffffff;
+	
+}
+
+.box-gray5 {
+
+		-ms-grid-row: 5;
+  -ms-grid-column: 1;
+	 border: 5px solid #ffffff;
+}
+
+
+.box-gray6 {
+
+		-ms-grid-row: 5;
+  -ms-grid-column: 3;
+	 border: 5px solid #ffffff;
+}
+
+.box-mspace1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  width: 3em;
+	
+}
+
+.box-mspace2 {
+
+		-ms-grid-row: 2;
+  -ms-grid-column: 4;
+   width: 3em;
+	
+}
+
+.box-mspace3 {
+
+		-ms-grid-row: 4;
+  -ms-grid-column: 2;
+
+	
+}
+
+.box-mspace4 {
+
+		-ms-grid-row: 4;
+  -ms-grid-column: 4;
+   width: 3em;
+	
+}
+
+.box-mspace5 {
+
+		-ms-grid-row: 6;
+  -ms-grid-column: 2;
+   width: 3em;
+	
+}
+
+.box-mspace6 {
+
+		-ms-grid-row: 6;
+  -ms-grid-column: 4;
+   width: 3em;
+	
+}
+
+/*.box-mspace7 {
+
+		-ms-grid-row: 2;
+  -ms-grid-column: 5;
+   width: 3em;
+	
+}
+
+.box-mspace8 {
+
+		-ms-grid-row: 3;
+  -ms-grid-column: 5;
+   width: 3em;
+	
+} */
+	.support-section {
+	margin-top: 3em;
+ 	width: 450px;
+	padding-right: 0;
+	padding-left: 0;
+	}
+	.content-support {
+
+	margin-top: 10em;
+
+}
+	.left-section div.button-group > div
+	{
+		margin-bottom: 20px;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div.HomeHeroSection > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.HomeWelcomePDFSection > div:nth-child(1)
+	{
+		width: 50%;
+	}
+
+	div.HomeWelcomePDFSection > div:nth-child(2)
+	{
+		width: 50%;
+	}
+
+	div.HomeWelcomeButtons > div:nth-child(1)
+	{
+		width: 50%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.HomeWelcomeButtons > div:nth-child(2)
+	{
+		width: 50%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.HomePDFSection > div:nth-child(1)
+	{
+		width: 33.33333%;
+	}
+
+	div.HomePDFSection > div:nth-child(2)
+	{
+		width: 33.33333%;
+	}
+
+	div.HomePDFSection > div:nth-child(3)
+	{
+		width: 33.33333%;
+	}
+
+	div.HomePDFButton > div:nth-child(1)
+	{
+		width: 50%;
+	}
+
+
+	div.HomeMasterPageFooter
+	{
+		width: 80%;
+		margin-left: 0%;
+	}
+
+	/* overrides */
+
+	.title-bar .menu-icon span
+	{
+		background: transparent url('../Images/Menu.png') no-repeat center center;
+		-pie-background: transparent url('../Images/Menu.png') no-repeat center center;
+	}
+
+	.menu .active > a
+	{
+		color: #fefefe;
+		background: #ac145a;
+	}
+
+	.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-color: #ac145a transparent transparent;
+	}
+/* Changed margin-left, margin-right, width and text-align properties to center under logo text on tablet. Changed top  property to -90 12/27 - PB */
+div.nav-header
+{
+	color: #464646;
+	font-size: 1.5em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+	
+/*ADDED contain to keep the picture image on the screen RV */
+
+
+}
+
+/* Large Layout minimized */
+
+@media only screen and (max-width: 1131px)
+{
+	.support-section 
+{
+	margin-top: 3em;
+	width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+
+	}
+	
+	.SubCenterOrange {
+	color: #ececec;
+	}
+	
+/*	.container-fourcol {
+	grid-gap: 2%;
+	
+}*/
+
+div.nav-header
+{
+	left: 1em;
+
+}
+
+
+}
+
+/* Medium Small Layout */
+
+@media only screen and (max-width: 970px)
+{
+
+div.nav-header
+{
+	color: #464646;
+	font-size: 1em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.content-qlinks {
+	/*margin: auto; */
+	width:100%;
+	padding-right: 20%;
+	padding-left: 20%;	
+}
+
+	.support-section {
+	margin-top: 3em;
+	 width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	}
+
+.content-support {
+
+	margin-top: 10em;
+
+}
+
+
+
+.container-threecol {
+
+	grid-gap: 1em;
+	grid-template-columns: repeat(auto-fit, 125px);
+
+}
+
+}
+
+/* Medium Layout minimized */
+
+@media only screen and (max-width: 959px)
+{
+
+	.support-section 
+	{
+	margin-top: 3em;
+	width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	}
+	
+	
+}
+
+/* Small Layout */
+
+@media only screen and (max-width: 767px)
+{
+
+.content-qlinks {
+	/*margin: auto; */
+	width:100%;
+	padding-right: 10%;
+	padding-left: 10%;	
+}
+
+.support-section {
+	margin-top: 3em;
+	 width:450px;
+	}
+	
+.content-support {
+	margin-top: 10em;
+
+}
+
+
+
+
+
+.container-threecol {
+
+	grid-gap: 1em;
+	grid-template-columns: repeat(auto-fit, 125px);
+
+}
+	
+	MadCap|searchBarProxy.homeSearchBar
+	{
+		width: 100%;
+	}
+
+	.left-content
+	{
+		margin-bottom: 60px;
+	}
+/* Added new style rule with max-height to fix hero size in mobile 12/27 PB */
+
+	/* Added line-height to hero H1 12/27 PB */
+	div.topichero h1
+	{
+		font-size: 2em;
+		line-height: 120%;
+	}
+
+	div.topichero h2
+	{
+		font-size: 1.2em;
+	}
+
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+
+	div.HomeHeroSection > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.HomeWelcomePDFSection > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.HomeWelcomePDFSection > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.HomeWelcomeButtons > div:nth-child(1)
+	{
+		width: 41.667%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.HomeWelcomeButtons > div:nth-child(2)
+	{
+		width: 41.667%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.HomePDFSection > div:nth-child(1)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.HomePDFSection > div:nth-child(2)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.HomePDFSection > div:nth-child(3)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.HomePDFButton > div:nth-child(1)
+	{
+		width: 41.667%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/* overrides */
+
+	.title-bar .menu-icon span
+	{
+		background: transparent url('../Images/Menu.png') no-repeat center center;
+		-pie-background: transparent url('../Images/Menu.png') no-repeat center center;
+	}
+/* Increased margin-left to center under logo text on mobile. Changed top  property to -90 12/27 - PB */
+div.nav-header
+{
+	color: #464646;
+	font-size: 1em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+	.menu .active > a
+	{
+		color: #fefefe;
+		background: #ac145a;
+	}
+
+	.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-color: #ac145a transparent transparent;
+	}
+	
+
+
+}
+
+/* Medium Layout minimized */
+
+@media only screen and (max-width: 727px)
+{
+
+.topichero
+{
+	background-color: #f0f0f0;
+	background-image: url('../Images/Journey-Creator.jpg'); 
+	/* background-size: cover; */
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	height: auto!important;
+	padding-bottom: 200px;
+	width: 100%;
+}
+
+	.support-section {
+	margin-top: 3em;
+	width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	}
+	
+/*	.container-fourcol {
+	grid-gap: 2%;
+
+	
+	
+}*/
+	.container-fourcol {
+	grid-gap: 2%;
+/*	grid-row-end: auto; */
+	display: -ms-grid;
+/*-ms-grid-columns: 250px 1fr;
+   -ms-grid-rows: 250px 1fr 250px 1fr 250px 1fr 250px 1fr 250px 1fr 250px 1fr; */
+   	 justify-content: space-evenly;
+	-ms-justify-content: center;
+	
+}
+	
+	.box-gray1 {
+
+	-ms-grid-row: 1;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray2 {
+
+	-ms-grid-row: 3;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray3 {
+
+	-ms-grid-row: 5;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray4 {
+
+	-ms-grid-row: 7;
+  -ms-grid-column: 1;
+ border: 5px solid #ffffff;
+	
+}
+
+.box-gray5 {
+
+		-ms-grid-row: 9;
+  -ms-grid-column: 1;
+	 border: 5px solid #ffffff;
+}
+
+
+.box-gray6 {
+
+		-ms-grid-row: 11;
+  -ms-grid-column: 1;
+ border: 5px solid #ffffff;	
+  
+}
+
+.box-mspace1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  	
+}
+
+.box-mspace2 {
+
+		-ms-grid-row: 4;
+  -ms-grid-column: 1;
+  
+	
+}
+
+.box-mspace3 {
+
+		-ms-grid-row: 6;
+  -ms-grid-column: 1;
+
+	
+}
+
+.box-mspace4 {
+
+		-ms-grid-row: 8;
+  -ms-grid-column: 1;
+
+	
+}
+
+.box-mspace5 {
+
+		-ms-grid-row: 10;
+  -ms-grid-column: 1;
+  
+	
+}
+
+.box-mspace6 {
+
+		-ms-grid-row: 12;
+  -ms-grid-column: 1;
+ 
+	
+}
+.support-section {
+	margin-top: 1em;
+	 width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	}
+	
+	div.nav-header
+{
+	color: #464646;
+	font-size: 1em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+}
+
+/* VerySmall Layout */
+
+@media only screen and (max-width: 626px)
+{
+
+.topichero
+{
+	background-color: #f0f0f0;
+	background-image: url('../Images/Journey-Creator.jpg'); 
+/* background-size: cover; */
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	height: auto!important;
+	padding-bottom: 150px;
+	width: 100%;
+}
+
+img {
+width:100%;
+margin:auto;
+}
+
+img.resize {
+width:100%;
+height: auto!important;
+}
+.support-section {
+	margin-top: 3em;
+	 width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	}
+	
+.container-fourcol {
+	grid-gap: 2%;
+/*	grid-row-end: auto; */
+	display: -ms-grid;
+-ms-grid-columns: 250px 1fr;
+   -ms-grid-rows: 250px 1fr 250px 1fr 250px 1fr 250px 1fr 250px 1fr 250px 1fr;
+  	 justify-content: space-evenly;
+	-ms-justify-content: center;
+	
+}
+	
+
+	
+}
+/* VerySmall Layout */
+
+@media only screen and (max-width: 588px)
+{
+
+.support-section {
+	margin-top: 3em;
+	 width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	}
+	
+.content-qlinks {
+
+	/*margin: auto; */
+	width:100%;
+	padding-right: 10%;
+	padding-left: 10%;	
+}
+
+.content-support {
+
+	margin-top: 3em;
+	padding-right: 0em;
+	padding-left: 0em;
+	width:100%;	
+
+}
+
+
+
+.container-threecol {
+
+	grid-gap: 1em;
+	grid-template-columns: repeat(auto-fit, 125px);
+
+}
+
+.section-SubCenterOrange {
+	padding-bottom:1em;
+	padding-right: 0em;
+	padding-left: 0em;	
+
+}
+
+div.nav-header
+{
+	color: #464646;
+	font-size: .75em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+
+}
+
+/* VerySmall Layout */
+
+@media only screen and (max-width: 542px)
+{
+
+.support-section {
+	margin-top: 3em;
+	 width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.content-support {
+
+	margin-top: 10em;
+	padding-right: 0em;
+	padding-left: 0em;	
+
+}
+.container-fourcol {
+	grid-gap: 2%;
+  	 justify-content: space-evenly;
+	-ms-justify-content: center;
+
+	
+	
+}
+
+
+
+.container-threecol {
+
+	grid-gap: 2%;
+	grid-template-columns: repeat(auto-fit, 125px);
+
+}
+
+.section-SubCenterOrange {
+	padding-bottom:1em;
+	padding-right: 0em;
+	padding-left: 0em;	
+
+}
+
+div.nav-header
+{
+	color: #464646;
+	font-size: .75em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+}
+/* VerySmall Layout */
+
+@media only screen and (max-width: 504px)
+{
+
+.support-section {
+	margin-top: 3em;
+	 width:450px;
+	padding-right: 0em;
+	padding-left: 0em;
+		margin-left:auto;
+	margin-right:auto;
+	}
+	
+	.container-fourcol {
+	grid-gap: 2%;
+	 justify-content: space-evenly;
+	-ms-justify-content: center;
+	
+	
+}
+div.nav-header
+{
+	color: #464646;
+	font-size: .55em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+}
+
+/* phones, iphone 6 378, pixel2 412 */
+
+@media only screen and (max-width: 412px)
+{
+
+img.Hyperlinked {
+width:80%;
+margin:auto;
+}
+
+img {
+width:100%;
+margin:auto;
+}
+
+.support-icon-left{
+	margin-left: auto;
+	padding-top: 2em;
+	padding-left: 15px;
+	float: left;
+}
+
+.support-icon-middle{
+	margin: auto;
+	padding-top: 2em;
+	float: left;
+	padding-left: 15px;
+}
+.support-icon-right{
+	margin-right: auto;
+	padding-top: 2em;
+	float: left;
+	padding-left: 15px;
+}
+
+.support-section {
+	margin-top: 3em;
+	 width:300px;
+	padding-right: 0em;
+	padding-left: 0em;
+		margin-left:auto;
+	margin-right:auto;
+	}
+	
+
+	
+	
+
+div.nav-header
+{
+	color: #464646;
+	font-size: .55em;
+	font-weight: 700;
+	position: relative;
+	top: -59px;
+	left: 1em;
+	z-index: 0;
+	margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+	.container-fourcol {
+	grid-gap: 2%;
+	display: -ms-grid;
+   -ms-grid-columns: 250px 1fr;
+   -ms-grid-rows: 255px 1fr 255px 1fr 255px 1fr 255px 1fr 255px 1fr 255px 1fr;
+   	 justify-content: space-evenly;
+	-ms-justify-content: center;
+
+	
+}
+	
+	.box-gray1 {
+
+	-ms-grid-row: 1;
+  -ms-grid-column: 1;
+ border: 5px solid #ffffff;
+ 
+
+	
+}
+
+.box-gray2 {
+
+	-ms-grid-row: 3;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray3 {
+
+	-ms-grid-row: 5;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray4 {
+
+	-ms-grid-row: 7;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-gray5 {
+
+		-ms-grid-row: 9;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+	
+}
+
+
+.box-gray6 {
+
+		-ms-grid-row: 11;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+	
+}
+
+.box-mspace1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+  	
+}
+
+.box-mspace2 {
+
+		-ms-grid-row: 4;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+  
+	
+}
+
+.box-mspace3 {
+
+		-ms-grid-row: 6;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-mspace4 {
+
+		-ms-grid-row: 8;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+
+	
+}
+
+.box-mspace5 {
+
+		-ms-grid-row: 10;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+  
+	
+}
+
+.box-mspace6 {
+
+		-ms-grid-row: 12;
+  -ms-grid-column: 1;
+   border: 5px solid #ffffff;
+ 
+	
+}
+
+}

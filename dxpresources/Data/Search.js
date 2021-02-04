@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0,76],u:['../Content/Home.htm'],s:['+','refresh'],p:[['+',18],['box',18],['details',17],['if',69],['note',95],['shadow',50],['to',58]]});

@@ -1,0 +1,572 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	color: #000000;
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: 1.7em;
+	text-indent: 0in;
+	font-size: 1.25em;
+}
+
+div.toolbar-position
+{
+	position: relative;
+	top: -5em;
+	left: -18em;
+	width: 300px;
+}
+
+div.MCBreadcrumbsBox_0
+{
+	margin-left: 5%;
+	margin-right: 40%;
+	width: 75%;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #206bce;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #0096d5;
+}
+
+div.TopicContent
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+h1
+{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	line-height: 1em;
+}
+
+h2
+{
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+h4
+{
+	
+}
+
+/*div.thumb-container 
+{
+display:block;
+width: 100%;
+}*/
+
+img
+{
+	width: auto;
+	height: auto;
+}
+
+img.thumb
+{
+	border: none;
+	mc-thumbnail: popup;
+	mc-thumbnail-max-width: 45em;
+	mc-thumbnail-max-height: auto;
+	width: 75%;
+}
+
+img.thumb-small
+{
+	border: none;
+	mc-thumbnail: popup;
+	mc-thumbnail-max-width: auto;
+	mc-thumbnail-max-height: auto;
+	width: 100%;
+}
+
+a.Popup
+{
+	
+}
+
+li
+{
+	
+}
+
+.othertopics-footer
+{
+	/*	position: static;
+	left:0;
+	bottom: 0;*/
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding: 0;
+	background-color: #363839;
+	height: 100px;
+	display: block;
+	box-sizing: border-box;
+	/*	margin-left: calc(50% - 50vw); */
+	/* width: 100vw; */
+}
+
+/*Footer. duplicated from Homepage styles */
+
+/*p.Copyright
+{
+	float: left;
+	clear: left;
+	font-size: 0.9em;
+	text-align: left;
+	color: #888888;
+	line-height: 1.6em;
+	margin: 0px 0 10px 0;
+	padding-left: 20px;
+} */
+
+div.footer
+{
+	background-color: #363839;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*	max-width: 100%; */
+	width: 100%;
+	padding: 0;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 3em;
+	z-index: -1;
+}
+
+div.footer a
+{
+	text-decoration: none;
+	color: #DADADA;
+}
+
+/* div.footer > div.outer-row
+{
+	line-height: 30px;
+	padding: 0;
+	margin: 0 auto;
+} */
+
+.footer-logo
+{
+	max-width: 100%;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.footer-links
+{
+	text-align: left;
+}
+
+.footer-links a
+{
+	padding-right: 15px;
+}
+
+.footer-icons
+{
+	text-align: right;
+	display: inline-block;
+	border-radius: 5;
+	padding-top: 20px;
+}
+
+ul.navigation li > a:hover
+{
+	font-weight: 400;
+}
+
+.footer-icons > a:first-of-type
+{
+	/*	padding-right: 10px; */
+}
+
+.footer-icons > a
+{
+	margin: 10px 10px 10px 10px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-count: 10;
+	mc-breadcrumbs-prefix: 'Home >';
+}
+
+MadCap|xref
+{
+	color: #206bce;
+	font-weight: 600;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #0096d5;
+}
+
+/*div.nav-header
+{
+	color: #464646;
+	font-size: 1.5em;
+	font-weight: 600;
+	position: relative;
+	top: -80px;
+	left: 0px;
+	z-index: 0;
+	margin-left: 5%;
+}*/
+
+div.nav-header a
+{
+	color: #464646;
+	text-decoration: none;
+}
+
+.off-canvas-wrapper-inner .outer-row
+{
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.Indent
+{
+	padding: 0px 0in 0px 40px;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 5%;
+	margin-right: 5%;
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+div.ContentRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+	/*	min-height: 600px; */
+	/*	min-height: 60em; */
+}
+
+div.ContentRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ContentRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ContentRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ContentRow > div:nth-child(1)
+{
+	width: 58.333%;
+	margin-left: 0%;
+	height: auto;
+	/*	min-height: 600px; */
+	/*	min-height: 60em; */
+}
+
+div.ContentRow > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 8.3333%;
+	height: auto;
+	/*	min-height: 600px; */
+}
+
+/* Overrides for styles*/
+
+.title-bar .menu-icon span
+{
+	background: transparent url('..Images/Menu.png') no-repeat center center;
+	-pie-background: transparent url('../Images/Menu.png') no-repeat center center;
+}
+
+nav.title-bar
+{
+	border-bottom: 1px solid #999;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*padding: 10px 0; */
+	line-height: inherit;
+	display: block;
+	background-color: #ffffff;
+}
+
+ul.navigation a
+{
+	font-weight: 400;
+	font-size: 15px;
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+ul.navigation li > a
+{
+	font-weight: 400;
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+	list-style-position: inherit;
+}
+
+/* FIXES for FOUNDATION.6.2.3.css */
+/* added 10px left margin to separate content from sidebar in tablet view 12/27 - PB */
+
+.sticky-container
+{
+	position: static;
+	margin-left: 10px;
+	margin-bottom: none;
+}
+
+.sticky
+{
+	z-index: 1;
+	/*-webkit-transform: translate3d(0, 0, 0); */
+	-webkit-transform: none;
+	position: static;
+	transform: none;
+}
+
+/* Changed position property to fix longer menus' overlap with footer  12/27 - PB */
+
+.sticky.is-stuck
+{
+	/* -webkit-transform: translateZ(0);*/
+	-webkit-transform: none;
+	position: static;
+	z-index: 1;
+}
+
+.sticky.is-stuck.is-at-top
+{
+	top: 0;
+}
+
+.sticky.is-stuck.is-at-bottom
+{
+	bottom: 0;
+}
+
+/* hhhhhh
+*/
+
+.sticky.is-anchored
+{
+	position: static;
+	left: auto;
+	right: auto;
+	z-index: 0;
+}
+
+.sticky.is-anchored.is-at-bottom
+{
+	bottom: 0;
+}
+
+.title-bar.sticky.is-stuck
+{
+	z-index: 5;
+	position: static;
+}
+
+.sticky-menu
+{
+	-webkit-transform: none;
+	position: static;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.sideContent
+	{
+		float: right;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		margin-right: 5%;
+	}
+
+	div.ContentRow
+	{
+		mc-grid-row: true;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	div.MCBreadcrumbsBox_0
+	{
+		margin-left: 5%;
+	}
+
+	div.ContentRow > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.ContentRow > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	/* overrides */
+
+	.title-bar .menu-icon span
+	{
+		background: transparent url('../Images/Menu.png') no-repeat center center;
+		-pie-background: transparent url('../Images/Menu.png') no-repeat center center;
+	}
+
+	/*	div.nav-header
+	{
+		color: #464646;
+		font-size: 1.5em;
+		font-weight: 600;
+		position: relative;
+		top: -80px;
+		left: 0px;
+		z-index: 0;
+		margin-left: 5%;
+	} */
+
+	.menu .active > a
+	{
+		color: #fefefe;
+		background: #ac145a;
+	}
+
+	.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-color: #ac145a transparent transparent;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.ContentRow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ContentRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	/* overrides */
+
+	.title-bar .menu-icon span
+	{
+		background: transparent url('../Images/Menu.png') no-repeat center center;
+		-pie-background: transparent url('../Images/Menu.png') no-repeat center center;
+	}
+
+	/*	div.nav-header
+	{
+		color: #464646;
+		font-size: 1.5em;
+		font-weight: 600;
+		position: relative;
+		top: -80px;
+		left: 0px;
+		z-index: 0;
+		margin-left: 5%;
+	} */
+
+	.menu .active > a
+	{
+		color: #fefefe;
+		background: #ac145a;
+	}
+
+	.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-color: #ac145a transparent transparent;
+	}
+}
+
+li.Bullet2_1
+{
+	padding: 0px;
+	list-style-position: inherit;
+	list-style-type: inherit;
+}
+
+ul.ul_1
+{
+	text-align: inherit;
+	text-indent: 6px;
+	list-style-position: inherit;
+}
+
